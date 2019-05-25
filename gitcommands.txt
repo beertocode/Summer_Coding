@@ -1,0 +1,22 @@
+1)git branch  -a
+2)Deleting local branches in Git:        git branch -d feature/login
+Deleting remote branches in Git:      git push origin --delete feature/login
+3)git checkout -b <new-branch>
+4)git branch  -a
+5)being in target branch run : git merge <branchToBeMerged>
+6)stash  helps us to store temporarily but safely our uncommited local changes and we can have our clean working copy.
+command to stash changes : git stash
+7)git log
+8)one way is:
+run : git diff branch1 branch2
+then git status
+9)ssh is secure shell .it is a method for secure remote login from one computer to another.
+differences:
+->https allows to clone but not push
+->When you git clone  to a remote repository using SSH URLs, you'll be prompted for a password and must provide your SSH key passphrase.
+->The https:// clone URLs are available on all repositories, public and private. 
+->HTTPS is less likely to be blocked by a firewall
+10)reset--soft:The --soft parameter tells Git to reset HEAD to another commit.
+If you specify --soft Git will stop there and nothing else will change.
+reset--hard:The --hard parameter will blow out everything – it resets HEAD back to another commit, resets the index to match it, and resets the working copy to match it as well. 
+git reset is used to undo local changes to state of a git repo.
