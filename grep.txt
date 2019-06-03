@@ -1,0 +1,11 @@
+grep1)grep -w the
+
+grep2)grep -wi the
+
+
+grep3)grep -vi that
+
+
+grepA)grep -Ewi 'the|that|then|those'
+
+grepB)grep -E '([0-9]) *\1+'
