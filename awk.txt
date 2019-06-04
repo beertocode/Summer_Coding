@@ -1,0 +1,14 @@
+awk1)awk '{if($4 =="") print("Not all scores are available for"), $1}'
+
+awk2)awk '{print $1,":", $2<50 || $3<50 || $3<50? "Fail":"Pass"}'
+
+awk3)
+awk '{total=$2+$3+$4;
+avg=total/3;
+if(avg>=80) grade="A";
+else if(avg>=60 && avg<80) grade ="B";
+else if(avg>=50 && avg<60) grade ="C";
+else grade="FAIL"; print $0,":",grade;}'
+
+awk4)awk 'ORS=NR%2?";":"\n"'
+
